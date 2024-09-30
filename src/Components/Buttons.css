@@ -1,0 +1,142 @@
+
+.container {
+  padding: 20px;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px; 
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  color: #333; 
+  background-color: rgb(229, 229, 229);
+   border-radius: 20px;
+
+}
+
+.btn:hover {
+  /* opacity: 33; */
+      transform: scale(1.1);
+      transition: opacity 415ms ease-in, transform 300ms ease-in;
+  background-color:rgb(255, 203, 4);
+}
+
+.btn:active {
+  background-color: yellow 
+}
+.btn1:hover{
+     background-color: rgb(255, 203, 4);
+     border: 2px solid yellow;
+     border-radius:20px;
+}
+.btn1{    
+  border: 2px solid rgb(216, 213, 209);
+  border-radius:20px;
+  background-color: red;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.card3{
+  border: 2px solid rgba(233, 233, 228, 0.925);
+  border-radius: 25px;
+  margin-left: 40px;
+  background-color: white;
+  /* height: 550px; */
+  width: 22%;
+  /* background-color: #333; */
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {  
+
+  .card3{
+    border: 2px solid rgba(233, 233, 228, 0.925);
+    border-radius: 25px;
+    background-color: white;
+    height: auto;
+    margin-left:30px;
+    padding: 9px;
+    text-align: center;
+    width: 57%;
+  } 
+ 
+
+ } 
+@media screen and (min-width: 500px) and (max-width: 600px) {  
+
+  .card3{
+    border: 2px solid rgba(233, 233, 228, 0.925);
+    border-radius: 25px;
+    background-color: white;
+    height: 480px;
+    margin-left:20px;
+    text-align: center;
+    width: 41%;
+  } 
+ 
+.card-img {
+  margin-left: 15px;
+  width: 79%;
+  border-radius: 19px;
+}
+
+.card-title {
+  padding: 3px;
+}
+ } 
+
+ @media screen and (min-width: 600px) and (max-width: 768px) {  
+
+  .card3{
+    border: 2px solid rgba(233, 233, 228, 0.925);
+    border-radius: 25px;
+    background-color: white;
+    height: 489px;
+    margin-left:50px;
+    text-align: center;
+    width: 31%;
+  } 
+ 
+.card-img {
+  margin-left: 15px;
+  width: 79%;
+  border-radius: 19px;
+}
+
+.card-title {
+  padding: 3px;
+}
+ } 
+.card3:hover{
+  border: 2px solid rgba(233, 233, 228, 0.925);
+  border-radius: 25px;
+  margin-left: 40px;
+  background-color: white;
+  height: 550px;
+  opacity: 33;
+  transform: scale(1.1);
+  transition: opacity 415ms ease-in, transform 300ms ease-in;
+  /* background-color: #333; */
+}
+.card3:hover{
+  border: 2px solid rgb(255, 204, 0);
+  border-radius: 25px;
+}
+
+.back-h6{
+  font-size: 13px;
+  color: rgba(15, 15, 15, 0.418);
+}
+.back-img{
+  margin-left: 18px;
+  width: 90%;
+  border-radius: 20px;
+  text-align: center;
+}
